@@ -1,0 +1,133 @@
+/* ===== ESTILOS GENERALES ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+
+#cabecera {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#cabeceraBloques {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== SECCIONES ===== */
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/* ===== CARD ===== */
+
+.card {
+    margin-top: 15px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* ===== BOTONES ===== */
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0097a7;
+}
+
+/* ===== FORMULARIOS ===== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== FOOTER ===== */
+
+#piePagina {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#piePagina img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#piePagina h3 {
+    margin-bottom: 10px;
+}
+
+#piePagina ul {
+    list-style: none;
+}
+
+#piePagina a {
+    color: white;
+    text-decoration: none;
+}
+
+#piePagina a:hover {
+    text-decoration: underline;
+}

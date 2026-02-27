@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Ice Cream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================================================================== -->
+
+    <header id="cabecera">
+
+        <h1>Bad Ice Cream</h1>
+        <div id="cabeceraBloques">
+            <nav class="cabeceraBloque1">
+                <ul>
+                    <li><a href="#presentacion">Precentacion</a></li>
+                    <li><a href="#jugabilidad">Jugabilidad</a></li>
+                    <li><a href="#piePagina">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+            <nav class="cabeceraBloque2">
+                <ul>
+                    <li><a href="#iniciarSesion">Registrate</a></li>
+                    <li><a href="#registrarse">Iniciar Sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==================================================================== -->
+    
+    <main id="cuerpoPagina">
+
+        <section id="general"> 
+            <div class="contenidoGeneral">
+                <p>Disfruta de este grandioso juego con tu pareja o amigo</p>
+                <button type="button" onclick="alert('........DESCARGANDO.......')">Descargar</button>
+            </div>
+        </section>
+
+        <!-- ==================================================================== -->
+
+        <section id="presentacion"> 
+            <h2>Presentacion</h2>
+                <div class="card">
+                    <p>
+                    Bad Ice Cream es un videojuego de arcade y rompecabezas desarrollado por 
+                    Nitrome. En él, los jugadores controlan personajes en forma de helado que 
+                    deben recolectar frutas mientras evitan enemigos y obstáculos en laberintos 
+                    congelados. 
+                    </p>
+
+                    <p>
+                        El juego es muy popular en línea gracias a su estilo colorido, música 
+                        divertida y controles sencillos que permiten jugar tanto en solitario como 
+                        en modo cooperativo con otra persona. Los niveles están diseñados para 
+                        desafiar la lógica y la estrategia, haciendo que el jugador piense 
+                        cuidadosamente en cada movimiento para evitar enemigos y recolectar 
+                        todas las frutas.  
+                    </p>
+
+                    <p>
+                        El juego combina la diversión de los juegos de arcade con el pensamiento 
+                        lógico de los rompecabezas, haciendo que cada partida sea un reto y una 
+                        experiencia entretenida.
+                    </p>
+
+                    <div class="imagen">
+                        <img src="https://i.pinimg.com/1200x/f8/a0/c3/f8a0c350ed7b97614121f418618e6388.jpg" alt="">
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- ==================================================================== -->
+
+        <section id="jugabilidad">
+            <h2>Jugabilidad</h2>
+                <div class="card">
+
+                    <div class="imagen">
+                        <img src="https://i.pinimg.com/1200x/46/58/3a/46583a223879c1c72d707c03f52728b5.jpg" alt="">
+                    </div>
+
+                    <p>
+                        En Bad Ice Cream, los jugadores deben recolectar todas las frutas de un 
+                        nivel para avanzar, mientras evitan ser atrapados por enemigos que patrullan 
+                        el mapa. La estrategia es clave, ya que los laberintos están llenos de bloques
+                        de hielo que se pueden romper para crear caminos o bloquear a los enemigos 
+                        temporalmente.
+                    </p>
+
+                    <ul>
+                        <li>
+                            El jugador controla su helado moviéndose en las cuatro direcciones.
+                        </li>
+
+                        <li>
+                            Los enemigos son variados y cada tipo tiene un patrón de movimiento diferente, 
+                            aumentando la dificultad.
+                        </li>
+
+                        <li>
+                            Los bloques de hielo no solo sirven para crear caminos, sino también para 
+                            protegerse de los enemigos. 
+                        </li>
+
+                        <li>
+                            Los niveles incluyen obstáculos que requieren planificación y coordinación, 
+                            especialmente en el modo cooperativo, donde dos jugadores deben colaborar para 
+                            completar el nivel.
+                        </li>
+                    </ul>
+
+                    
+                
+
+            <article id="objetivoJuego">
+                    <h2>Objetivos del juego</h2>
+
+                    <ul>
+                        <li>
+                            Recolectar todas las frutas del nivel.
+                        </li>
+
+                        <li>
+                            Evitar el contacto con los enemigos que hacen perder vidas.
+                        </li>
+
+                        <li>
+                            Usar estratégicamente los bloques de hielo para bloquear enemigos 
+                            o crear rutas seguras.
+                        </li>
+
+                        <li>
+                            Completar todos los niveles superando desafíos progresivamente más difíciles.
+                        </li>
+
+                        <li>
+                            En modo cooperativo, colaborar con otro jugador para coordinar movimientos y 
+                            superar obstáculos que un solo jugador no podría manejar.
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- ==================================================================== -->
+
+        <section id="iniciarSesion">
+            <h2>iniciar Sesion</h2>
+                <form action="#" method="post">
+                    <label for="correoElectronicoLogin">Correo electronico</label>
+                    <input type="email" id="correoElectronicoLogin" name="correoElectronicoLogin" required>
+
+                    <label for="contrasenaLogin">Password</label>
+                    <input type="password" name="contrasenaLogin" minlength="8" id="contrasenaLogin" required>
+
+                    <button type="submit">Iniciar Sesion</button>
+                </form>
+        </section>
+
+        <!-- ==================================================================== -->
+
+        <section id="registrarse">
+            <h2>Registrarse</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required>
+
+                    <label for="fechaNacimiento">Fecha de nacimiento </label>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento" required>
+
+                    <label for="contrasenaRegister">Password</label>
+                    <input type="password" name="contrasenaRegister" minlength="8" id="contrasenaRegister" required>
+                    
+                    <label for="confirmarContrasenaRegister">Confirmar contrasena</label>
+                    <input type="password" name="confirmarContrasenaRegister" minlength="8" id="confirmarContrasenaRegister" required>
+
+                    <label for="correoElectronicoRegister">Correo Electronico</label>
+                    <input type="email" name="correoElectronicoRegister" id="correoElectronicoRegister" required>
+
+                    <button type="submit">Registrate</button>
+                    <button type="reset">Vaciar Casillar</button>
+                </form>
+
+                
+        </section>
+
+    </main>
+
+    <!-- ==================================================================== -->
+
+    <footer id="piePagina">
+
+    <img src="https://i.pinimg.com/736x/cf/bd/db/cfbddbc7afeaa42cf41d29df7b019d8b.jpg" alt="">
+
+    <div class="sobreNosotros">
+        <h3>Sobre nosotros</h3>
+        <p>Somos una página dedicada a compartir información del juego. que yo lo hice</p>
+    </div>
+
+    <div class="contactos">
+        <h3>Contáctanos</h3>
+        <p>Email: proplayer@gmail.com</p>
+        <p>WhatsApp: 319534534</p>
+    </div>
+
+    <div class="redesSociales">
+        <h3>Redes sociales</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+        </ul>
+    </div>
+
+</footer>
+    <!-- ==================================================================== -->
+    
+</body>
+</html>
