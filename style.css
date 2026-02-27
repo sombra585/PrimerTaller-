@@ -1,4 +1,3 @@
-/* ===== ESTILOS GENERALES ===== */
 
 * {
     margin: 0;
@@ -8,126 +7,144 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.5;
 }
 
-/* ===== HEADER ===== */
-
 #cabecera {
-    background-color: #00bcd4;
-    color: white;
-    padding: 20px;
+    background-color: #87cefa;
+    padding: 15px;
+}
+
+#cabecera h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #cabeceraBloques {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
 }
 
-nav ul {
+#cabecera ul {
     list-style: none;
     display: flex;
-    gap: 15px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* ===== SECCIONES ===== */
-
-section {
-    padding: 40px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-h2 {
-    margin-bottom: 15px;
-}
-
-/* ===== CARD ===== */
-
-.card {
-    margin-top: 15px;
-}
-
-.card img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-    margin: 15px 0;
-}
-
-/* ===== BOTONES ===== */
-
-button {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #00bcd4;
-    color: white;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-button:hover {
-    background-color: #0097a7;
-}
-
-/* ===== FORMULARIOS ===== */
-
-form {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
-input {
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+#cabecera a {
+    text-decoration: none;
+    color: black;
 }
 
-/* ===== FOOTER ===== */
+/* ============================= */
+/* SECCIONES */
+/* ============================= */
+
+section {
+    padding: 30px 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* ============================= */
+/* SECCION GENERAL */
+/* ============================= */
+
+#general {
+    text-align: center;
+}
+
+#general img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    border: 1px solid #444;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+/* ============================= */
+/* CONTENIDO */
+/* ============================= */
+
+.card {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.imagen {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen img {
+    width: 200px;
+}
+
+/* ============================= */
+/* FORMULARIOS */
+/* ============================= */
+
+form {
+    max-width: 300px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #888;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
 
 #piePagina {
-    background-color: #222;
-    color: white;
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 #piePagina img {
-    width: 150px;
-    border-radius: 10px;
-}
-
-#piePagina h3 {
+    width: 100px;
+    display: block;
     margin-bottom: 10px;
 }
 
 #piePagina ul {
     list-style: none;
+    padding-left: 0;
 }
 
 #piePagina a {
-    color: white;
     text-decoration: none;
-}
-
-#piePagina a:hover {
-    text-decoration: underline;
+    color: black;
 }
